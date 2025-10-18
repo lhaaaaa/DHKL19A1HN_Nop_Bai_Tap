@@ -1,0 +1,125 @@
+# === Chuẩn bị & Bài 1-2 (Giả định: Đã init và add remote) ===
+git init
+git remote add origin <URL_kho_lưu_trữ_của_bạn>
+git checkout main # Đảm bảo đang ở main (hoặc master)
+
+# === Bài 3: Tạo 4 nhánh, file, commit và push ===
+# branch_1
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "feat: Add text_branch_1.txt on branch_1"
+git push -u origin branch_1
+
+# branch_2
+git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "feat: Add text_branch_2.txt on branch_2"
+git push -u origin branch_2
+
+# branch_3
+git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "feat: Add text_branch_3.txt on branch_3"
+git push -u origin branch_3
+
+# branch_4
+git checkout main
+git checkout -b branch_4
+echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "feat: Add text_branch_4.txt on branch_4"
+git push -u origin branch_4
+
+# === Bài 4: Xóa branch_4 local và kiểm tra ===
+git checkout main
+git branch -d branch_4
+
+# === Bài 5: Cập nhật Project (Pull) ===
+git pull origin main
+
+# === Bài 6: Tạo main_folder và cập nhật nhánh con ===
+git checkout main
+mkdir main_folder
+touch main_folder/main_txt_1.txt
+touch main_folder/main_txt_2.txt
+touch main_folder/main_txt_3.txt
+echo "Content 1" > main_folder/main_txt_1.txt 
+git add main_folder/
+git commit -m "feat: Add main_folder with initial files"
+git push origin main
+
+# Cập nhật branch_1
+git checkout branch_1
+git pull origin main
+git push origin branch_1
+
+# Cập nhật branch_2
+git checkout branch_2
+git pull origin main
+git push origin branch_2
+
+# Cập nhật branch_3
+git checkout branch_3
+git pull origin main
+git push origin branch_3
+
+# === Bài 7: Tạo branch_5, merge, và xóa (Bỏ qua các lệnh giải quyết conflict bằng tay) ===
+# Tạo branch_5 và commit
+git checkout branch_1
+git checkout -b branch_5
+echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "feat: Update content of text_branch_1.txt on branch_5"
+git push -u origin branch_5
+
+# Giả định đã xử lý PR/Merge (Tạo thay đổi xung đột trên branch_1)
+git checkout branch_1
+echo "Đây là nội dung mới trên branch_1, sẽ gây xung đột." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "fix: Temporary conflicting change on branch_1"
+git push origin branch_1
+
+# Merge và giải quyết conflict (Giả định giữ lại branch_5)
+git merge branch_5 # Sẽ báo conflict
+# <Sau khi xử lý conflict bằng tay và git add>
+git commit -m "Merge branch_5 into branch_1, resolving conflict by keeping branch_5 content"
+git push origin branch_1
+
+# Xóa branch_5
+git checkout main
+git push origin --delete branch_5
+git branch -d branch_5
+
+# === Bài 8: Merge tất cả vào main ===
+git checkout main
+git pull origin main
+git merge branch_1 -m "Merge branch_1 into main"
+git merge branch_2 -m "Merge branch_2 into main"
+git merge branch_3 -m "Merge branch_3 into main"
+# Thêm lại file branch_4 bị thiếu
+echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "feat: Re-add text_branch_4.txt content from original branch_4"
+git push origin main
+
+# === Bài 9: Xóa các nhánh còn lại và cập nhật branch_1 ===
+# Xóa remote
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+
+# Xóa local
+git checkout main
+git branch -d branch_2
+git branch -d branch_3
+# git branch -d branch_4 (đã xóa trước đó, nhưng nếu còn thì chạy lại)
+
+# Cập nhật branch_1
+git checkout branch_1
+git pull origin main
+git push origin branch_1
