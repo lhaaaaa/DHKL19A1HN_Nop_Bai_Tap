@@ -1,0 +1,128 @@
+# B1: Trên GitHub, tạo repo tên: 25174600049_Nguyen_Thi_Thanh_Huyen_bai_tap
+# (khi tạo nhớ tick chọn "Add a README file")
+
+# B2: Clone project về máy
+git clone https://github.com/<tên_tài_khoản_github>/25174600049_Nguyen_Thi_Thanh_Huyen_bai_tap.git
+
+# B3: Di chuyển vào thư mục project
+cd 25174600049_Nguyen_Thi_Thanh_Huyen_bai_tap
+# Mở file README.md và chỉnh sửa nội dung như sau:
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+
+# Thêm và commit thay đổi
+git add README.md
+git commit -m "Bài 2: Cập nhật nội dung README.md"
+
+# Đẩy dữ liệu lên GitHub
+git push origin main
+# Tạo branch_1
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Bài 3: Tạo file text_branch_1.txt"
+git push origin branch_1
+
+# Quay lại nhánh main
+git checkout main
+
+# Tạo branch_2
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "Bài 3: Tạo file text_branch_2.txt"
+git push origin branch_2
+
+# Quay lại nhánh main
+git checkout main
+
+# Tạo branch_3
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Bài 3: Tạo file text_branch_3.txt"
+git push origin branch_3
+
+# Quay lại nhánh main
+git checkout main
+
+# Tạo branch_4
+git checkout -b branch_4
+echo "Học phần: Tin cơ sở cho ngành KHDL
+Giảng viên: Lê Hằng Anh
+Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "Bài 3: Tạo file text_branch_4.txt"
+git push origin branch_4
+# Xóa nhánh branch_4 trên máy
+git branch --delete branch_4
+
+# Kiểm tra danh sách nhánh local
+git branch --list
+
+# Kiểm tra danh sách nhánh trên GitHub (remote)
+git branch -r
+git pull origin main
+# Tạo thư mục và các tệp tin
+mkdir main_folder
+echo "Nội dung file 1" > main_folder/main_txt_1.txt
+echo "Nội dung file 2" > main_folder/main_txt_2.txt
+echo "Nội dung file 3" > main_folder/main_txt_3.txt
+
+# Commit và push
+git add main_folder
+git commit -m "Bài 6: Thêm thư mục main_folder với 3 tệp tin"
+git push origin main
+
+# Cập nhật nội dung cho tất cả các nhánh
+git checkout branch_1
+git pull origin main
+git push origin branch_1
+
+git checkout branch_2
+git pull origin main
+git push origin branch_2
+
+git checkout branch_3
+git pull origin main
+git push origin branch_3
+# Tạo nhánh branch_5 từ branch_1
+git checkout branch_1
+git checkout -b branch_5
+
+# Chỉnh sửa file text_branch_1.txt với nội dung sau:
+# Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim.
+
+git add text_branch_1.txt
+git commit -m "Bài 7: Cập nhật nội dung text_branch_1.txt trong branch_5"
+git push origin branch_5
+
+# Tạo pull request (trên GitHub): merge branch_5 → branch_1
+# Nếu có conflict, giữ lại nội dung branch_5.
+
+# Sau khi merge xong, xóa nhánh branch_5
+git branch --delete branch_5
+git push origin --delete branch_5
+# Thực hiện pull request trên GitHub:
+# branch_1 → main
+# branch_2 → main
+# branch_3 → main
+# branch_4 → main
+
+# (Đảm bảo main có đủ các file: text_branch_1.txt, text_branch_2.txt, text_branch_3.txt, text_branch_4.txt)
+# Xóa nhánh branch_2, branch_3, branch_4 (local)
+git branch --delete branch_2
+git branch --delete branch_3
+git branch --delete branch_4
+
+# Xóa trên GitHub (remote)
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+
+# Cập nhật nội dung nhánh main cho branch_1
+git checkout branch_1
+git pull origin main
+git push origin branch_1
+git add Nguyen_Thi_Thanh_Huyen_doan_ma.txt
+git checkout branch_1
+git pull origin main

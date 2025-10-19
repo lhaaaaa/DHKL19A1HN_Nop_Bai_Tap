@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Integer sit amet nisi aliquam,tempor libero quis, cursus erat.
+=======
+Integer sit amet nisi aliquam, tempor libero quis, cursus erat.
+>>>>>>> 0a9b675 (Thêm text_branch_3.txt)
