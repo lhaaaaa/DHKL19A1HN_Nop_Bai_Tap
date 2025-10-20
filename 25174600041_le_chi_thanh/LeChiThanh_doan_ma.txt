@@ -1,0 +1,67 @@
+ Bài 1: Tạo Project trên GitHub và clone về máy
+ git clone https://github.com/lechithanh25174600041dhkl19a1hn/25174600041_le_chi_thanh_bai_tap.git 
+Bài 2: Chỉnh sửa file README.md trên máy local, commit và push
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel
+placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra
+viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt
+turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus
+porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse
+platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien
+consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat,
+interdum justo a, aliquam risus.
+git add README.md
+git commit -m "Chỉnh sửa nội dung README.md"
+git push origin main
+Bài 3: Tạo các nhánh mới và thêm file tương ứng
+git checkout main
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Add text_branch_1.txt"
+git push origin branch_1
+
+git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "Add text_branch_2.txt"
+git push origin branch_2
+
+git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Add text_branch_3.txt"
+git push origin branch_3
+
+git checkout main
+git checkout -b branch_4
+echo -e "Học phần: Tin cơ sở cho ngành KHDL\n\nGiảng viên: Lê Hằng Anh\n\nCras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "Add text_branch_4.txt"
+git push origin branch_4
+Bài 4: Xóa nhánh branch_4 trên local và kiểm tra danh sách nhánh
+git checkout main
+git branch -d branch_4
+git branch
+git branch -r
+Bài 5: Cập nhật project trên local với dữ liệu mới nhất trên GitHub
+Git checkout main
+git pull origin main
+Bài 6: Tạo thư mục main_folder trong nhánh main với 3 file
+ git checkout main
+mkdir main_folder
+echo "File main_txt_1 content" > main_folder/main_txt_1.txt
+echo "File main_txt_2 content" > main_folder/main_txt_2.txt
+echo "File main_txt_3 content" > main_folder/main_txt_3.txt
+git add main_folder/
+git commit -m "Thêm thư mục main_folder chứa các tệp tin main_txt_1, 2, 3"
+git push origin main
+git checkout branch_1
+git pull origin main
+git push origin branch_1
+
+git checkout branch_2
+git pull origin main
+
