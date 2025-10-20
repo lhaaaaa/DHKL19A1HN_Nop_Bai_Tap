@@ -1,0 +1,112 @@
+Bài 1: Tạo Project trên GitHub và clone về máy
+ git clone https://github.com/NguyenThiHien-25174600051-DHKL19A1HN/25174600051_Nguyen_Thi_Hien_bai_tap.git
+Bài 2: Chỉnh sửa file README.md trên máy local, commit và push
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel
+placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra
+viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt
+turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus
+porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse
+platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien
+consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat,
+interdum justo a, aliquam risus.
+git add README.md
+git commit -m "Chỉnh sửa nội dung README.md"
+git push origin main
+Bài 3: Tạo các nhánh mới và thêm file tương ứng
+git checkout main
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Add text_branch_1.txt"
+git push origin branch_1
+
+git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "Add text_branch_2.txt"
+git push origin branch_2
+
+git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Add text_branch_3.txt"
+git push origin branch_3
+
+git checkout main
+git checkout -b branch_4
+echo -e "Học phần: Tin cơ sở cho ngành KHDL\n\nGiảng viên: Lê Hằng Anh\n\nCras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "Add text_branch_4.txt"
+git push origin branch_4
+Bài 4: Xóa nhánh branch_4 trên local và kiểm tra danh sách nhánh 
+branch -d branch_4 
+git branch
+git branch -r
+Bài 5: Cập nhật project trên local với dữ liệu mới nhất trên GitHub
+Git checkout main
+git pull origin main
+Bài 6: Tạo thư mục main_folder trong nhánh main với 3 file
+ git checkout main
+mkdir main_folder
+echo "File main_txt_1 content" > main_folder/main_txt_1.txt
+echo "File main_txt_2 content" > main_folder/main_txt_2.txt
+echo "File main_txt_3 content" > main_folder/main_txt_3.txt
+git add main_folder/
+git commit -m "Thêm thư mục main_folder chứa các tệp tin main_txt_1, 2, 3"
+git push origin main
+git checkout branch_1
+git pull origin main
+git push origin branch_1
+
+git checkout branch_2
+git pull origin main
+git push origin branch_2
+
+git checkout branch_3
+git pull origin main
+git push origin branch_3
+Bài 7: Tạo nhánh branch_5 từ branch_1, chỉnh sửa file, commit, push và pull request
+
+git checkout branch_1
+git checkout -b branch_5
+
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam
+malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor
+tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae
+egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula.
+Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae
+tristique enim.
+
+git add text_branch_1.txt
+git commit -m "Chỉnh sửa nội dung text_branch_1.txt trong branch_5"
+git push origin branch_5
+git branch -d branch_5 
+git push origin –delete branch_5
+
+Bài 8: Pull Request tất cả các nhánh vào main (không xóa nhánh)
+git checkout main
+git merge branch_1
+git push origin main
+git merge branch_2
+git push origin main
+git merge branch_3
+git push origin main
+git merge branch_4
+git push origin main
+Bài 9: Xóa nhánh branch_2, branch_3, branch_4 trên local và remote, cập nhật branch_1 theo main
+ 
+git branch -d branch_2
+git branch -d branch_3
+git branch -d branch_4
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+git checkout branch_1
+git pull origin main
+git push origin branch_1
