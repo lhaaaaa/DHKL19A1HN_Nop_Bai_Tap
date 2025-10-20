@@ -1,0 +1,1276 @@
+admin@DESKTOP-D7BII3H MINGW64 ~
+$ mkdir 25174600019_Nguyen_Trung_Thanh_bai_tap
+
+admin@DESKTOP-D7BII3H MINGW64 ~
+$ cd 25174600019_Nguyen_Trung_Thanh_bai_tap
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$ git init
+Initialized empty Git repository in C:/Users/admin/25174600019_Nguyen_Trung_Thanh_bai_tap/.git/
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (master)
+$ echo "25174600019_Nguyen_Trung_Thanh_bai_tap" > README.md
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (master)
+$ git add README.md
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (master)
+$ git commit -m "Bai 1: Khoi tao repo va them README.md"
+[master (root-commit) 87f3a21] Bai 1: Khoi tao repo va them README.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (master)
+$ git branch -M main
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git remote add origin https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 237 bytes | 237.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at placerat iaculis, risus odio malesuada ante, sit amet aliquam quam libero id mi." >> README.md
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add README.md
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "Bai 2: Cap nhat noi dung Lorem ipsum vao README.md"
+[main 6d1a2c4] Bai 2: Cap nhat noi dung Lorem ipsum vao README.md
+ 1 file changed, 1 insertion(+)
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 324 bytes | 324.00 KiB/s, done.
+To https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+   87f3a21..6d1a2c4  main -> main
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+admin@DESKTOP-D7BII3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git add text_branch_1.txt$ cd
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ ls
+ -1.14-windows.xml
+ 25174600019_Nguyen_Trung_Thanh_bai_tap/
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TM.blf
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TMContainer0000000000000000001.regtrans-ms
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TMContainer0000000000000000002.regtrans-ms
+ NetHood@
+ Nox_share/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ d4ac4633ebd6440fa397b84f1bc94a3c.7z
+ inittk.ini
+ inst.ini
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ nuuid.ini
+ useruid.ini
+ vmlogs/
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ ^C
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ cd 25174600019_Nguyen_Trung_Thanh_bai_tap~
+bash: cd: 25174600019_Nguyen_Trung_Thanh_bai_tap~: No such file or directory
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$  cd 25174600019_Nguyen_Trung_Thanh_bai_tap
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ notepad README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add README.md
+git commit -m "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integerefficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquamquam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donecet urna metus. Vivamus viverra sagittis. Vestibulum risus ante, molestie ac ero efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ane vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultrices dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliqua enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis meus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+git push origin main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git remote add origin https://github.com/ntthanh25174600019-debug/25174600019Nguyen_Trung_Thanh_bai_tap.git
+error: remote origin already exists.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git remote set-url origin https://github.com/ntthanh25174600019-debug/2517460019_Nguyen_Trung_Thanh_bai_tap.git
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ ^C
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git add README.md
+git commit -m "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integerefficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquamquam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donecet urna metus. Vivamus viverra sagittis. Vestibulum risus ante, molestie ac ero efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ane vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultrices dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliqua enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis meus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+git push origin main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git config --global
+error: no action specified
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git config --global credential.helper manager git pull
+error: no action specified
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git config --global credential.helper manager
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+
+
+
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+
+
+
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integr efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliqum quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donc et urna metus. Vivamus viverra sagittis. Vestibulum risus ante, molestie ac eos efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies nte vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultrcies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliqam enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis etus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risu."
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git clone http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+fatal: could not create work tree dir '25174600019_Nguyen_Trung_Thanh_bai_tap':
+ No such file or directory
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$ ^C
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$  git clone http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+fatal: could not create work tree dir '25174600019_Nguyen_Trung_Thanh_bai_tap':
+ No such file or directory
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$   git clone http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+fatal: could not create work tree dir '25174600019_Nguyen_Trung_Thanh_bai_tap':
+ No such file or directory
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$ gitclone/
+bash: gitclone/: No such file or directory
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]progress       force progress reporting
+    --[no-]reject-shallow don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --checkout            opposite of --no-checkout
+    --[no-]bare           create a bare repository
+    --[no-]mirror         create a mirror repository (implies --bare)
+    -l, --[no-]local      to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    --hardlinks           opposite of --no-hardlinks
+    -s, --[no-]shared     setup as shared repository
+    --[no-]recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --[no-]recursive ...  alias of --recurse-submodules
+    -j, --[no-]jobs <n>   number of submodules cloned in parallel
+    --[no-]template <template-directory>
+                          directory from which templates will be used
+    --[no-]reference <repo>
+                          reference repository
+    --[no-]reference-if-able <repo>
+                          reference repository
+    --[no-]dissociate     use --reference only while cloning
+    -o, --[no-]origin <name>
+                          use <name> instead of 'origin' to track upstream
+    -b, --[no-]branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    --[no-]revision <rev> clone single revision <rev> and check out
+    -u, --[no-]upload-pack <path>
+                          path to git-upload-pack on the remote
+    --[no-]depth <depth>  create a shallow clone of that depth
+    --[no-]shallow-since <time>
+                          create a shallow clone since a specific time
+    --[no-]shallow-exclude <ref>
+                          deepen history of shallow clone, excluding ref
+    --[no-]single-branch  clone only one branch, HEAD or --branch
+    --[no-]tags           clone tags, and make later fetches not to follow them
+    --[no-]shallow-submodules
+                          any cloned submodules will be shallow
+    --[no-]separate-git-dir <gitdir>
+                          separate git dir from working tree
+    --[no-]ref-format <format>
+                          specify the reference format to use
+    -c, --[no-]config <key=value>
+                          set config inside the new repository
+    --[no-]server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --[no-]filter <args>  object filtering
+    --[no-]also-filter-submodules
+                          apply partial clone filters to submodules
+    --[no-]remote-submodules
+                          any cloned submodules will use their remote-tracking
+branch
+    --[no-]sparse         initialize sparse-checkout file to include only files
+ at root
+    --[no-]bundle-uri <uri>
+                          a URI for downloading bundles before fetching from or
+igin remote
+
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap
+$ cd
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TM.blf
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ed2160ea-d23d-11ef-ace2-af6938dff361}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ Nox_share/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ d4ac4633ebd6440fa397b84f1bc94a3c.7z
+ inittk.ini
+ inst.ini
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ nuuid.ini
+ useruid.ini
+ vmlogs/
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ ^C
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$  git clone http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_bai_tap.git
+Cloning into '25174600019_Nguyen_Trung_Thanh_bai_tap'...
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+
+admin@DESKTOP-D78II3H MINGW64 ~
+$ cd 25174600019_Nguyen_Trung_Thanh_bai_tap                                    
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ ls
+README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ notepad README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ notepad README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git mommit -m
+git: 'mommit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m
+error: switch `m' requires a value
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push ỏrigino
+fatal: 'ỏrigino' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin main
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Everything up-to-date
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ ^[201~[200~git add README.md
+bash: $'\E[200~git': command not found
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "Chinh sua README.md theo bai 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add README.md
+git commit -m "Chinh sua README.md theo bai 2"
+git push origin main
+[main b9fb0dd] Chinh sua README.md theo bai 2
+ 1 file changed, 8 insertions(+)
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 712 bytes | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+   31768bb..b9fb0dd  main -> main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ notepad README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add README.md
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "bai 2 "
+[main 7e8d4da] bai 2
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin main
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+   b9fb0dd..7e8d4da  main -> main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_1 main
+Switched to a new branch 'branch_1'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git branch
+* branch_1
+  main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git add .
+git commit -m "Add text_branch_1.txt in branch_1"
+git push origin branch_1
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRL
+F the next time Git touches it
+[branch_1 fa3958f] Add text_branch_1.txt in branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 388 bytes | 388.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_1
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git commit -m " bai 3 "
+On branch branch_1
+nothing to commit, working tree clean
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git push origin branch_1
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Everything up-to-date
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRL
+F the next time Git touches it
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git commit -m "bai 3"
+[branch_2 db8016c] bai 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git push origin brach_2
+error: src refspec brach_2 does not match any
+error: failed to push some refs to 'http://github.com/ntthanh25174600019-debug/
+25174600019_Nguyen_Trung_Thanh_bai_tap.git'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git push origin branch_2
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_2
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRL
+F the next time Git touches it
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git commit -m " bai 3 "
+[branch_4 4328bd5]  bai 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git push origin branch_4
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_4
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git branch -D branch_4
+Deleted branch branch_4 (was 4328bd5).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+* main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin --delete branch_4
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ - [deleted]         branch_4
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_3)
+$ git add .
+git commit -m "Add text_branch_3.txt in branch_3"
+git push origin branch_3
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRL
+F the next time Git touches it
+[branch_3 d988f1e] Add text_branch_3.txt in branch_3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 388 bytes | 388.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_3
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git chekout branch_4
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRL
+F the next time Git touches it
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git mommit -m "bai 3"
+git: 'mommit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git commit -m "bai 3"
+[branch_4 fd7b98a] bai 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git push origin branch_4
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_4
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git cheackout main
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/admin/2517
+4600019_Nguyen_Trung_Thanh_bai_tap'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$  git branch -D branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/admin/2517
+4600019_Nguyen_Trung_Thanh_bai_tap'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* branch_4
+  main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ ^C
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git worktree list
+C:/Users/admin/25174600019_Nguyen_Trung_Thanh_bai_tap  fd7b98a [branch_4]
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git cheackout main
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git branch -D branch_4
+Deleted branch branch_4 (was fd7b98a).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git pull origin main
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git log --oneline
+7e8d4da (HEAD -> main, origin/main, origin/HEAD) bai 2
+b9fb0dd Chinh sua README.md theo bai 2
+31768bb Update README.md
+4442df5 Update README.md
+d3d49fe Initial commit
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ mkdir main_folder
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ echo "1" > main_folder/main_txt_1.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ echo "2" > main_folder/main_txt_2.txt                                        
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ 200~echo "3" > main_folder/main_txt_3.txt                                    bash: 200~echo: command not found
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ echo "3" > main_folder/main_txt_3.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add .
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replac
+ed by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replac
+ed by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replac
+ed by CRLF the next time Git touches it
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "bai 6"
+[main bc8a71b] bai 6
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+Merge branch 'main' of http://github.com/ntthanh25174600019-debug/25174600019_N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Merge branch 'main' of http://github.com/ntthanh25174600019-debug/25174600019_N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_2)
+$ git push origgin branch_2
+fatal: 'origgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Merge branch 'main' of http://github.com/ntthanh25174600019-debug/25174600019_N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_Merge branch 'main' of http://github.com/ntthanh25174600019-debug/25174600019_N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git push origin branch_4
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 430 bytes | 430.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+   fd7b98a..d2017af  branch_4 -> branch_4
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_4)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_5)
+$ notepad text_branch_1.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_5)
+$ git add text_branch_1.txt
+git commit -m "7"
+[branch_5 c8609dc] 7
+ 1 file changed, 14 insertions(+)
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_5)
+$ git push origin branch_5
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 668 bytes | 334.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Tru
+ng_Thanh_bai_tap/pull/new/branch_5
+remote:
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git pull origin main
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+From http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_
+bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Merge branch 'branch_2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'branch_3'
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'branch_4'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge made by the 'ort' strategy.
+ text_branch_4.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git merge branch_4
+Already up to date.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ main branch
+bash: main: command not found
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ main branch list
+bash: main: command not found
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 11 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git add .
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git commit -m "bai 8"
+On branch main
+Your branch is ahead of 'origin/main' by 11 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin main
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 940 bytes | 313.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+   bc8a71b..25d4e3f  main -> main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch -d branch_1
+Deleted branch branch_1 (was 139217d).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 44645b9).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 6000a57).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch -d branch_4
+Deleted branch branch_4 (was d2017af).
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git push origin --delete branch_1
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ - [deleted]         branch_1
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git push origin --delete branch_2
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ - [deleted]         branch_2
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git push origin --delete branch_3
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ - [deleted]         branch_3
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git push origin --delete branch_4
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+To http://github.com/ntthanh25174600019-debug/25174600019_Nguyen_Trung_Thanh_ba
+i_tap.git
+ - [deleted]         branch_4
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$ git branch
+  branch_5
+* main
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$  git push origin --delete branch_5
+warning: redirecting to https://github.com/ntthanh25174600019-debug/25174600019
+_Nguyen_Trung_Thanh_bai_tap.git/
+error: unable to delete 'branch_5': remote ref does not exist
+error: failed to push some refs to 'http://github.com/ntthanh25174600019-debug/
+25174600019_Nguyen_Trung_Thanh_bai_tap.git'
+
+admin@DESKTOP-D78II3H MINGW64 ~/25174600019_Nguyen_Trung_Thanh_bai_tap (main)
+$
