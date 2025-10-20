@@ -1,0 +1,65 @@
+# ======================
+# HỌ VÀ TÊN: HỒ ANH NGHĨA
+# MÃ SV: 25174600065
+# BÀI 10 – ĐOẠN MÃ GIT TỪ BÀI 1 → BÀI 9
+# ======================
+
+# Bài 1: Tạo kho lưu trữ Git và đẩy lên GitHub
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/HoAnhNghia-25174600065-DHKL19A1/25174600065_Ho_Anh_Nghia_bai_tap.git
+git push -u origin main
+
+# Bài 2: Tạo các nhánh
+git branch branch_1
+git branch branch_2
+git branch branch_3
+git branch branch_4
+git push origin branch_1
+git push origin branch_2
+git push origin branch_3
+git push origin branch_4
+
+# Bài 3: Chuyển nhánh và chỉnh sửa file
+git checkout branch_1
+echo "Nội dung file cho branch_1" > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Thêm file text_branch_1.txt"
+git push origin branch_1
+
+# Bài 4: Merge các nhánh vào main
+git checkout main
+git merge --no-ff branch_1
+git push origin main
+git merge --no-ff branch_2
+git push origin main
+git merge --no-ff branch_3
+git push origin main
+git merge --no-ff branch_4
+git push origin main
+
+# Bài 5: Kiểm tra log và lịch sử merge
+git log --oneline --graph --decorate -n 10
+
+# Bài 6: Kiểm tra các nhánh từ xa
+git branch -r
+git branch -a
+
+# Bài 7: Kiểm tra các nhánh đã được merge
+git branch --merged
+
+# Bài 8: Xóa các nhánh đã merge
+git branch -d branch_2
+git branch -d branch_3
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+
+# Bài 9: Dọn dẹp tham chiếu nhánh cũ
+git fetch --prune
+
+# ======================
+# HẾT
+# ======================
