@@ -1,0 +1,89 @@
+bài 1
+git clone https://github.com/phamkieudung25174600034/25174600034_phamkieudung_baitap.git
+cd 25174600034_phamkieudung_baitap
+bài 2
+git add README.md
+git add .
+git commit -m "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel
+placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra
+viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt
+turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus
+porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse
+platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien
+consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat,
+interdum justo a, aliquam risus."
+bài 3 
+git init
+git checkout -b nhánh-1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_nhánh-1.txt
+git checkout main
+git checkout -b nhánh-2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_nhánh-2.txt
+git add text_nhánh-2.txt
+git commit -m "thêm text_nhánh-2.txt vào nhánh-2"
+git checkout main
+git checkout -b nhánh-3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_nhánh-3.txt
+git add text_nhánh-3.txt
+git commit -m "thêm text_nhánh-3.txt vào nhánh 3"
+git checkout main
+git checkout -b nhánh-4
+echo "Cras ac mi nec nisi porta ultrices sed non ante."> text_nhánh-4.txt
+git add text_nhánh-4.txt
+git commit -m "thêm text_nhánh-4.txt"
+git checkout main
+git push origin nhánh-1
+git push origin nhánh-2
+git push origin nhánh-3
+git push origin nhánh-4
+bài 4
+git checkout main
+git branch -d nhánh-4
+git branch --list
+git branch -a
+bài 5
+git checkout main
+git pull
+bài 6
+git checkout main
+mkdir main_folder
+echo "nội dung main 1" > main_folder/main_txt_1.txt
+echo "nội dung main 2" > main_folder/main_txt_2.txt
+echo " nội dung main 3" > main_folder/main_txt_3.txt
+git add main folder
+git commit -m "thêm main_folder và các file vào main"
+git push origin main
+git checkout nhánh-1
+git pull origin main
+git checkout nhánh-2
+git pull origin main
+git checkout nhánh-3
+git pull origin main
+bài 7
+git checkout main
+git checkout -b nhánh-5
+echo "..." > text_nhánh-1.txt
+git add text_nhánh-1.txt
+git commit -m "sửa text_nhánh-1.txt trên nhánh-5"
+git push origin nhánh-5
+git checkout main
+git merge nhánh-5
+git push origin main
+git checkout main
+git branch -D nhánh-5
+git push origin --delete nhánh-5
+bài 8
+git checkout main
+git merge nhánh-2
+git merge nhánh-3
+git merge origin/nhánh-4
+git push origin main
+bài 9
+git checkout main
+git branch -D nhánh-2
+git branch -D nhánh-3
+git branch -D nhánh-4
+git checkout nhánh-1
+git pull origin main
+git push origin nhánh-1
