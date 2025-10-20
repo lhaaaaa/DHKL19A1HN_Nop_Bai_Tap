@@ -87,3 +87,4 @@ git branch -D nhánh-4
 git checkout nhánh-1
 git pull origin main
 git push origin nhánh-1
+update lại
