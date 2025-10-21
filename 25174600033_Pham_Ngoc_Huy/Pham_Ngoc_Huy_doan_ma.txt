@@ -1,0 +1,73 @@
+Bài1:
+git clone https://github.com/pnhuy25174600033/25174600033_Pham_Ngoc_Huy_bai_tap.git
+cd 25174600033_Pham_Ngoc_Huy_bai_tap
+ls
+Bài2:
+git add readme.md
+git commit -m"Them doan van ban Latin 1 vao readme.md" git push origin main
+Bài3:
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add .
+git commit -m "Them text_branch_1.txt vao branch_1"
+git push origin branch_1
+git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales" > text_branch_2.txt
+git add .
+git commit -m "Them text_branch_2.txt vao branch_2"
+git push origin branch_2
+git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add .
+git commit -m "Them text_branch_3.txt vao branch_3"
+git push origin branch_3
+git checkout main
+git checkout -b branch_4
+echo "Van ban Latin khac cho branch 4" > text_branch_4.txt
+git add .
+git commit -m "Them text_branch_4.txt vao branch_4"
+git push origin branch_4
+Bài4:
+git branch -D branch_4
+git push origin --delete branch_4
+Bài5:
+git checkout main
+git pull
+Bài6:
+mkdir main_folder
+echo "Noi dung 1" > main_folder/main_txt_1.txt
+echo "Noi dung 2" > main_folder/main_txt_2.txt
+echo "Noi dung 3" > main_folder/main_txt_3.txt
+git add .
+git commit -m "Them main_folder"
+git push origin main
+Bài7:
+git checkout branch_1
+git checkout -b branch_5
+ Mở file text_branch_1.txt và dán đoạn văn bản latin 2 vào cuối file rồi lưu lại.
+git add text_branch_1.txt
+git commit -m "Them doan Latin 2 vao text_branch_1.txt tren branch_5"
+git push origin branch_5
+git checkout branch_1
+git pull 
+git branch -d branch_5
+git push origin --delete branch_5
+git merge main
+git push origin branch_1
+Bài8:
+git checkout main
+git pull
+Bài9:
+git branch -d branch_4
+git branch -d branch_2
+git branch -d branch_3
+git push origin --delete branch_4
+git push origin --delete branch_2
+git push origin --delete branch_3
+Bài 10:
+touch Pham_Ngoc_Huy_doan_ma.txt
+git add Pham_Ngoc_Huy_doan_ma.txt
+git commit -m "Bai10:Tong hop cac lenh git tu bai 1 den bai 9"
+git push origin main
